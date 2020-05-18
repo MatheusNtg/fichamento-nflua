@@ -73,7 +73,7 @@ Tem por objetivo inserir os dados presentes na mesma dentro da `struct net` que 
 
 ## NFLua e o IPTables
 
-Dentro do diretório `nflua/iptables` temos um readme que explica como o nflua  é usado para o registro de hooks[^1] no netfilter.
+Dentro do diretório `nflua/iptables` temos um readme que explica como o nflua  é usado para o registro de hooks [ver apêndice](apendice.md) no netfilter.
 
 ### Registrando Hooks do tipo match
 
@@ -122,6 +122,3 @@ Essa regra nos diz o seguinte: Adicione na cadeia `INPUT` uma regra para o proto
 
 
 Mas assim como no caso do match, nós precisamos realizar a carga do código que conterá essa função no estado desejado, para isso podemos criar um arquivo com uma função de escopo global com o mesmo nome registrado na regra do iptables e implementar a sua lógica. Uma vez feito isso, para realizar a carga do código podemos utilizar o nfluactl informando o path do arquivo que acabamos de escrever e que contem essa função.
-
-
-[^1]: Funcionalidade provida pelo software que permite a execução de código do usuário (quem está utilizando o software) em determinadas circunstâncias
