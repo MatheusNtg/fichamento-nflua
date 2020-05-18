@@ -73,7 +73,7 @@ Tem por objetivo inserir os dados presentes na mesma dentro da `struct net` que 
 
 ## NFLua e o IPTables
 
-Dentro do diretório `nflua/iptables` temos um readme que explica como o nflua  é usado para o registro de hooks [ver apêndice](apendice.md) no netfilter.
+Dentro do diretório `nflua/iptables` temos um readme que explica como o nflua  é usado para o registro de hooks ([ver apendice](apendice.md)) no netfilter.
 
 ### Registrando Hooks do tipo match
 
